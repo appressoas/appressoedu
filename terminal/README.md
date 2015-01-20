@@ -1,5 +1,10 @@
 # Tips and tricks for shell usage
 
+### First some terms:
+
+"Current directory" means the directory you are currently in. Use the command ``pwd`` 
+to see this if in doubt.
+
 ## History
 
 Remember to use arrow keys up and down to move in history. 
