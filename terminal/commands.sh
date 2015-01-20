@@ -53,6 +53,19 @@ $> grep -r world *
 # Combine the two above with:
 $> grep -rn world * 
 
+# Find all files with filename "README.md"
+$> find . -name README.md
+
+# Find all files that begins with "READ"
+$> find . -name READ*
+
+# Find all files that ends with ".md"
+$> find . -name *.md
+
+# Did you get an error, try: 
+$> find . -name "*.md"
+
+
 
 
 
