@@ -18,11 +18,18 @@ Use ``ls`` to see your copy of the repository.
 
     ``git status``
 
+### Syncronize your local repository with the content in the repository on github
+
+    ``git pull``
+
 ### Tell git to save everything as it is right now
 
     ´´git commit -a -m "Added more information to the readme file"``
 
 ### Update the repository on github.com so that is equal to what I have on my machine
 
+    ``git pull``
     ``git push``
+
+Why this ``git pull`` first? Because you need to syncronize your local code first to avoid errors.
 
