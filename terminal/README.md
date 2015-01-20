@@ -5,6 +5,9 @@
 Remember to use arrow keys up and down to move in history. 
 Arrow up takes you through your command history.
 
+Search in command history by hitting ``Ctrl-R`` and writing something 
+from a previous command.
+
 ## Tab completion 
 
 You do not need to write the whole command, directory or file name.
