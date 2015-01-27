@@ -23,12 +23,19 @@ $> clear
 # Create a new empty file called "myfile.txt"
 $> touch myfile.txt
 
+# Change the filename for "myfile.txt" to something else
+$> mv myfile.txt somethingelse.txt
+
 # Delete the file "myfile.txt"
 $> rm myfile.txt
 # Note that this deletes the file for good
 
 # Create a new directory called "kvittr"
 $> mkdir "kvittr"
+
+# Move the directory "kvittr" into the directory "mycode"
+$> mv kvittr mycode/.
+# We can use this without the "/.", but let's be accurate for now.
 
 # Delete the directory named "kvittr"
 $> rmdir kvittr
