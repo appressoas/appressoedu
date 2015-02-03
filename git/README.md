@@ -26,7 +26,7 @@ on your computer. To check, go to your home directory with ``cd``. (This command
 takes you to your home directory.) Then run ``cd .ssh``. If you now get something like this you do not 
 have a ssh key:
 
-    ´´-bash: cd: .ssh: No such file or directory``
+    -bash: cd: .ssh: No such file or directory
 
 If you do not get this message, and your working directory is changed to ``.ssh`` (check with ``pwd``) 
 then you allready have a key you can use.
