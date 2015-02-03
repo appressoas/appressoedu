@@ -37,7 +37,9 @@ if person1_age == person2_age:
 elif person1_age > person2_age:
     print "Person 1 is older than person 2."
 elif person2_age > person1_age:
-    print "Person 2 is older than person 1." 
+    print "Person 2 is older than person 1."
+else:
+    print "None of the above where true"
 
 
 # Remember that we can choose to do something based on the content of a list:
