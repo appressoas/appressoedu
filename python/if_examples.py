@@ -46,12 +46,12 @@ else:
 example_list = [1, 2, 3]
 if example_list:
     print "The list is not empty."
-
+print example_list[2]
 # And you can do the same with dictionaries
 example_dict = {'a': 1, 'b': 2, 'c': 3}
 if example_dict:
     print "The dictionary is not empty."
-
+print example_dict['c']
 
 
 
