@@ -17,17 +17,19 @@ want to login every time we run a command, and for this reason we use ssh-keys. 
 computer you need to have two files that contains a combination of charaters that uniquely identifies you, 
 just like you are used to when identifying yourself with a combination of username and password.
 
-The two files we need is called ``id_rsa`` and ``id_rsa.pub``. But we do not create these files yourself, 
-we use a command line tool called ``ssh-keygen``. This tool gets available on your computer when you install
+The two files we need is called ``id_rsa`` and ``id_rsa.pub``. But we do not create these files ourselves, 
+we use a command called ``ssh-keygen``. This tool gets available on your computer when you install
 XCode (OSX) or Cygwin (Windows).
 
-Note that ssh-keys are used by many services, so you may allready have an ssh-key on your computer. To check, 
-go to your home directory with ``cd``. (This command without anything after, takes you to your home directory.)
-Then run ``cd .ssh``. If you now get something like this you do not have a ssh key:
+Note that ssh-keys are used by many services in addition to Github, so you may allready have an ssh-key 
+on your computer. To check, go to your home directory with ``cd``. (This command without anything after, 
+takes you to your home directory.) Then run ``cd .ssh``. If you now get something like this you do not 
+have a ssh key:
 
     ´´-bash: cd: .ssh: No such file or directory``
 
-If you do not get this message, directory is changed to ``.ssh`` then you allready have a key you can use.
+If you do not get this message, and your working directory is changed to ``.ssh`` (check with ``pwd``) 
+then you allready have a key you can use.
 
 At this point you are ready to follow the description of using ssh keys on github. Go to the link below 
 and choose "MAC" or "WINDOWS". But note that even if Github tries to tell you to "Forget the terminal" or 
