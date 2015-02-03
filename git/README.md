@@ -40,26 +40,26 @@ https://help.github.com/articles/generating-ssh-keys/
 
 ### Get a local copy of a repository found on github.com
 
-    ´´git clone git@github.com:appressoas/appressoedu.git´´
+    git clone git@github.com:appressoas/appressoedu.git
 
 Use ``ls`` to see your copy of the repository.
 
 ### See the current status of the repository
 
-    ``git status``
+    git status
 
 ### Syncronize your local repository with the content in the repository on github
 
-    ``git pull``
+    git pull
 
 ### Tell git to save everything as it is right now
 
-    ´´git commit -a -m "Added more information to the readme file"``
+    git commit -a -m "Added more information to the readme file"
 
 ### Update the repository on github.com so that is equal to what I have on my machine
 
-    ``git pull``
-    ``git push``
+    git pull
+    git push
 
 Why this ``git pull`` first? Because you need to syncronize your local code first to avoid errors.
 
