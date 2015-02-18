@@ -60,18 +60,32 @@ Husk å:
 * gjøre mange commits
 * beskrive kort og/men godt hva du har gjort siden sist du commitet
 
-Her følger eksempler på bruk av git:
+Her følger eksempler på bruk av git mens du jobber med oppgaven:
 
 ```bash
+# For å se hva som er endret siden sist:
 $> git status
+# De filene git status viser som "modified" eller "new" legger du neste commit med:
 $> git add
+# Legg til et nytt punkt i historikken (tidslinjen til prosjektet)
 $> git commit
+# Send endringene du har gjort til github
 $> git push
+# Hent nye endringer fra github (ikke så aktuelt i arbeid med oblig), men gjør det allikevel :-)
+$> git pull
 ```
 
 Hvis det er editoren vim som starter når du kjører kommandoen `git commit` kan det være litt uvant å komme seg videre. For å lagre og lukke vim trykk ´Esc´, skriv `:wq` (vises nede til høyre) og klikk `Enter`. For å få ´nano` til å starte i stedet for `vim` ved `git commit` kjør følgende kommando:
 
     git config --global core.editor "nano"
+
+
+## Til slutt litt om
+
+Det kan bli gjort endringer i denne teksten dersom vi får tilbakemeldinger på at mer informasjon ønskes. 
+
+Dere vil få nærmere beskjed om hvordan besvarelsen skal leveres.
+
 
 
 
