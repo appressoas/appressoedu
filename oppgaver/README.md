@@ -38,6 +38,7 @@ $> source virtualenvironments/django-oblig/bin/activate
 (django-oblig)djangoprojects $> git clone git@github.com:apparator/django-oblig.git
     Cloning into 'django-oblig'...
 (django-oblig)djangoprojects $> cd django-oblig/
+# Legg merke til at repositoriet og den virtuelle omgivelsen har samme navn (anbefales)
 (django-oblig)django-oblig $> ls
     README.md    myprojectname
 # Installer Django, i den virtuelle omgivelsen
