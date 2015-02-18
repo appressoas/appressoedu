@@ -82,7 +82,7 @@ Hvis det er editoren vim som starter når du kjører kommandoen `git commit` kan
 
 ## Til slutt litt om
 
-Det kan bli gjort endringer i denne teksten dersom vi får tilbakemeldinger på at mer informasjon ønskes. 
+Det kan bli gjort endringer i denne teksten dersom vi får tilbakemeldinger på at mer informasjon ønskes. Og etterhvert som dere finner (trykk)feil. :-)
 
 Dere vil få nærmere beskjed om hvordan besvarelsen skal leveres.
 
