@@ -1,11 +1,19 @@
 # Obligatorisk innlevering
 
-Dette er den eneste obligatoriske innleveringen i kurset. Besvarelsen skal leveres senest *fredag 6. mars*. Du skal lage en enkel django-applikasjon ved å gå gjennom alle punktene i "part 1", "part 2" og "part 3" av den offisielle Django-tutorialen, og mapper og filer du lager når du går gjennom tutorial-en skal legges i et repository på github. Repositoriet skal være offentlig. 
+Dette er den obligatoriske innleveringen i kurset ITM30614 våren 2015. Besvarelsen skal leveres senest *fredag 6. mars*. Du skal lage en enkel django-applikasjon ved å gå gjennom alle punktene i "part 1", "part 2" og "part 3" av den offisielle Django-tutorialen. Kataloger og filer du lager når du går gjennom tutorial-en skal legges i et repository på github. Repositoriet skal være offentlig. 
 
 
-## Virtual environent
+## Virtual environent og mappestruktur
 
-Du må bruke et _virtual environment_ når du jobber med django-tutorialen. 
+Du må bruke et _virtual environment_ når du jobber med django-tutorialen. For at det skal være enkelt å holde oversikt over hvor du har dine django-prosjekter og den tilhørende virtuelle omgivelsen anbefales følgende katalogstruktur:
+
+    ├── itm30614code
+    │   ├── djangoprojects
+    │   │   ├── django-oblig
+    │   │   └── kvittr
+    │   └── virtualenvironments
+    │       ├── django-oblig
+    │       └── kvittr 
 
 
 ## Django tutorial
