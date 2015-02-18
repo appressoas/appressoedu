@@ -28,6 +28,7 @@ $> pip install virtualenv
 $> virtualenv virtualenvironments/django-oblig
 # Aktiver omgivelsen (deaktiver den med kommandoen "deactivate")
 $> source virtualenvironments/django-oblig/bin/activate
+# Legg merke til at vårt "prompt" nå har er endret for å vise at vi er i en virtuell omgivelse
 (django-oblig)$> ls
     djangoprojects      virtualenvironments
 (django-oblig)$> cd djangoprojects/
