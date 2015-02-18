@@ -9,11 +9,11 @@ Du må bruke et _virtual environment_ når du jobber med django-tutorialen. For 
 
     ├── itm30614code
     │   ├── djangoprojects
-    │   │   ├── django-oblig
-    │   │   └── kvittr
+    │   │   ├── django-oblig (et github repository)
+    │   │   └── kvittr (et github repository)
     │   └── virtualenvironments
-    │       ├── django-oblig
-    │       └── kvittr 
+    │       ├── django-oblig (virtual env for djangoprosjektet "django-oblig")
+    │       └── kvittr (env for "kvittr")
 
 
 ## Django tutorial
