@@ -15,6 +15,7 @@ Du må bruke et _virtual environment_ når du jobber med django-tutorialen. For 
     │       ├── django-oblig (virtual env for djangoprosjektet "django-oblig")
     │       └── kvittr (env for "kvittr")
 
+Husk at du ikke selv skal røre noe inne i katalogen `virtualenvironments`, det er verktøyet `virtualenv` som skal ha kontroll i denne.
 
 ## Django tutorial
 
