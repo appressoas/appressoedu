@@ -21,6 +21,7 @@ Husk at du ikke selv skal røre noe inne i katalogen `virtualenvironments`, det 
 
 Antar at du først har laget repositoriet `django-oblig` for obligen på github.
 
+```bash
     $> pip install virtualenv
     $> virtualenv virtualenvironments/django-oblig
     $> source virtualenvironments/django-oblig/bin/activate
@@ -37,7 +38,7 @@ Antar at du først har laget repositoriet `django-oblig` for obligen på github.
     (django-oblig)django-oblig $> pip install Django
         Successfully installed Django
         Cleaning up...
-
+```
 
 ## Django tutorial
 
