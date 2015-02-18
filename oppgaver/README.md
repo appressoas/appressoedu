@@ -22,8 +22,11 @@ Husk at du ikke selv skal røre noe inne i katalogen `virtualenvironments`, det 
 Antar at du først har laget repositoriet `django-oblig` for obligen på github.
 
 ```bash
+# Installer virtualenv fra python cheese shop med pip
 $> pip install virtualenv
+# Lag en virtuall omgivelse med navn django-oblig
 $> virtualenv virtualenvironments/django-oblig
+# Aktiver omgivelsen (deaktiver den med kommandoen "deactivate")
 $> source virtualenvironments/django-oblig/bin/activate
 (django-oblig)$> ls
     djangoprojects      virtualenvironments
