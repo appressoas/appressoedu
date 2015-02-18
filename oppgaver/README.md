@@ -28,20 +28,21 @@ $> pip install virtualenv
 $> virtualenv virtualenvironments/django-oblig
 # Aktiver omgivelsen (deaktiver den med kommandoen "deactivate")
 $> source virtualenvironments/django-oblig/bin/activate
-# Legg merke til at vårt "prompt" nå har er endret for å vise at vi er i en virtuell omgivelse
+# Legg merke til at vårt "prompt" nå er endret for å vise at vi er i en virtuell omgivelse
 (django-oblig)$> ls
     djangoprojects      virtualenvironments
 (django-oblig)$> cd djangoprojects/
 (django-oblig)djangoprojects $> ls
     kvittr
+# Hent github repositoriet du har laget, og skal bruke for oblig
 (django-oblig)djangoprojects $> git clone git@github.com:apparator/django-oblig.git
     Cloning into 'django-oblig'...
 (django-oblig)djangoprojects $> cd django-oblig/
 (django-oblig)django-oblig $> ls
     README.md    myprojectname
+# Installer Django, i den virtuelle omgivelsen
 (django-oblig)django-oblig $> pip install Django
     Successfully installed Django
-    Cleaning up...
 ```
 
 ## Django tutorial
