@@ -46,8 +46,34 @@ $> source virtualenvironments/django-oblig/bin/activate
     Successfully installed Django
 ```
 
+Med disse kommandoene skal du ha det du trenger for å starte med å gå gjennom del 1, 2 og 3 av django-tutorialen.
+
 ## Django tutorial
 
 * https://docs.djangoproject.com/en/1.7/intro/tutorial01/
 * https://docs.djangoproject.com/en/1.7/intro/tutorial02/
 * https://docs.djangoproject.com/en/1.7/intro/tutorial03/
+
+## Om bruk av git underveis i arbeidet med obligen
+
+Husk å:
+* gjøre mange commits
+* beskrive kort og/men godt hva du har gjort siden sist du commitet
+
+Her følger eksempler på bruk av git:
+
+```bash
+$> git status
+$> git add
+$> git commit -m "La til eksempel kommandoer for bruk av git til oblig"
+$> git push
+```
+
+
+
+
+
+
+
+
+
