@@ -65,10 +65,13 @@ Her følger eksempler på bruk av git:
 ```bash
 $> git status
 $> git add
-$> git commit -m "La til eksempel kommandoer for bruk av git til oblig"
+$> git commit
 $> git push
 ```
 
+Hvis det er editoren vim som starter når du kjører kommandoen `git commit` kan det være litt uvant å komme seg videre. For å lagre og lukke vim trykk ´Esc´, skriv `:wq` (vises nede til høyre) og klikk `Enter`. For å få ´nano` til å starte i stedet for `vim` ved `git commit` kjør følgende kommando:
+
+    git config --global core.editor "nano"
 
 
 
