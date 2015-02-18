@@ -22,22 +22,22 @@ Husk at du ikke selv skal røre noe inne i katalogen `virtualenvironments`, det 
 Antar at du først har laget repositoriet `django-oblig` for obligen på github.
 
 ```bash
-    $> pip install virtualenv
-    $> virtualenv virtualenvironments/django-oblig
-    $> source virtualenvironments/django-oblig/bin/activate
-    (django-oblig)$> ls
-        djangoprojects      virtualenvironments
-    (django-oblig)$> cd djangoprojects/
-    (django-oblig)djangoprojects $> ls
-        kvittr
-    (django-oblig)djangoprojects $> git clone git@github.com:apparator/django-oblig.git
-        Cloning into 'django-oblig'...
-    (django-oblig)djangoprojects $> cd django-oblig/
-    (django-oblig)django-oblig $> ls
-        README.md    myprojectname
-    (django-oblig)django-oblig $> pip install Django
-        Successfully installed Django
-        Cleaning up...
+$> pip install virtualenv
+$> virtualenv virtualenvironments/django-oblig
+$> source virtualenvironments/django-oblig/bin/activate
+(django-oblig)$> ls
+    djangoprojects      virtualenvironments
+(django-oblig)$> cd djangoprojects/
+(django-oblig)djangoprojects $> ls
+    kvittr
+(django-oblig)djangoprojects $> git clone git@github.com:apparator/django-oblig.git
+    Cloning into 'django-oblig'...
+(django-oblig)djangoprojects $> cd django-oblig/
+(django-oblig)django-oblig $> ls
+    README.md    myprojectname
+(django-oblig)django-oblig $> pip install Django
+    Successfully installed Django
+    Cleaning up...
 ```
 
 ## Django tutorial
