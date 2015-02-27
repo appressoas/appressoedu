@@ -17,4 +17,4 @@ Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi [[biblioteker|##B
 ## Program
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. 
 
-[## Bibliotek]
+## [Bibliotek]
