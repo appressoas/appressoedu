@@ -12,9 +12,9 @@ Med en web-applikasjon mener vi i dette kurset et program som
 
 Vi skal lage en web-applikasjon som heter Kvittr. Siden en web-applikasjon er et program, så må vi bruke et programmeringsspråk for å skrive våre kommandoer i, og Python er språket vi skal bruke.
 
-Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi [[biblioteker|##Bibliotek]].
+Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi [biblioteker](#bibliotek).
 
 ## Program
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. 
 
-## [Bibliotek]
+## Bibliotek
