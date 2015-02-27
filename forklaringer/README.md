@@ -6,7 +6,7 @@ Her følger et forsøk på å gi et overblikk over elementene og deres bruksomr�
 
 ## Selve web-applikasjonen
 
-Med en web-applikasjon mener vi i dette kurset et program som 
+Med en web-applikasjon mener vi i dette kurset et [program](#program) som 
 * setter sammen nettsider
 * lagrer data som bruker 
 
@@ -19,3 +19,4 @@ Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. 
 
 ## Bibliotek
+Ferdige programmer som vi kobler inn i vårt eget [program](#program). De fleste bibliotekene vi bruker laster vi ned og installerer i vår [virtuelle omgivelse](#virtuelle omgivelse) med `pip install`.
