@@ -4,7 +4,7 @@ Det kan være vanskelig å få oversikt over alle elementene vi snakker om når 
 
 Her følger et forsøk på å gi et overblikk over elementene og deres bruksområder.
 
-## Selve web-applikasjonen
+## Å lage en web-applikasjonen
 
 Med en web-applikasjon mener vi i dette kurset et [program](#program) som 
 * setter sammen nettsider
@@ -15,12 +15,12 @@ Vi skal lage en web-applikasjon som heter Kvittr. Siden en web-applikasjon er et
 Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi 
 [biblioteker](#bibliotek). 
 
-Et av bibliotekene vi bruker for å lage Kvittr er [Django](#django). 
+Et av bibliotekene vi bruker for å lage Kvittr er [Django](#django). Vi installerer Django ved hjelp av [Pip](#pip).
 
-## Program
+### Program
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. Kommandoene er som oftest listet opp i én eller flere filer.
 
-## Python
+### Python
 Python er for oss 2 ting, og det kan være litt forvirrende. Vi bør prøve å ha klart for oss forskjellen på disse 2 tingene som er:
 * Et programmeringsspråk
 * Et program som vi kjører med kommandoen `python`
@@ -29,17 +29,17 @@ Programmeringsspråket Python er et av mange språk som er laget for å skrive k
 
 Programmet Python, som vi har fått installert på vår maskin gjennom Xcode eller Cygwin, er et program som leser filer med kode skrevet i språket python, og utfører kommandoene der.
 
-## Django
+### Django
 Django er et stort [Python](#python) [bibliotek](#bibliotek) som gir oss ferdigskrevet kode for mange av de vanlige tingene vi må gjøre når vi lager 
 web-applikasjoner.
 
-## Bibliotek
+### Bibliotek
 Ferdige programmer som vi kobler inn i vårt eget [program](#program). De fleste bibliotekene vi bruker laster vi ned og installerer i vår [virtuelle omgivelse](#virtuelle omgivelse) med verktøyet [Pip](#pip) og kommandoen `pip install`.
 
-## Pip
+### Pip
 `pip` er et program vi bruker for å laste ned og installere python [biblioteker](#biblioteker)
 
-## Terminal-programmer som Cygwin og iTerm2
+### Terminal-programmer som Cygwin og iTerm2
 Terminal-programmer gjør det mulig for oss å gi kommandoer til datamaskinen. Det vi skriver inn, det gjøres. Det vil si, med mindre vi har skrevet noe feil. Datamaskiner er ikke veldig smarte, så kommandoen må være skrevet på en helt bestemt måte. 
 
 Når vi skriver kommandoer i en terminal skriver kommandoer i programmeringsspråket `bash`. Eksempler på slike kommandoer er:
@@ -49,5 +49,10 @@ $> mkdir thedirectory
 $> cd thedirectory
 ```
 
+### Git
+Git er et program som vi installerer og bruker på vår datamaskin for holde oversikt over utviklingen av et program. Git gjør dette ved å lagre "tilstanden" på et gitt tidspunkt. Vi må selv si fra til git når vi vil at "tilstanden" skal lagres. Dette gjør vi med kommandoen `git commit`.   
 
+Git har støtte for å syncronisere code til servere og tjenester som er koblet til internett. Et eksempel på en slik tjeneste er [Github](#github). Vi kan hente kode fra Github med kommandoen `git pull` og "skyve" vår kode til Github med `git push`. 
 
+### Github
+Github er et nettsted hvor vi kan lagre kode. I tillegg til å lagre kode har github diverse funksjonalitet som gjør at det er lettere å holde oversikt og samarbeide om koding.
