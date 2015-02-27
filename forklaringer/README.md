@@ -18,7 +18,7 @@ Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi
 Et av bibliotekene vi bruker for å lage Kvittr er [Django](#django). 
 
 ## Program
-Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. 
+Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. Kommandoene er som oftest listet opp i én eller flere filer.
 
 ## Python
 Python er for oss 2 ting, og det kan være litt forvirrende. Vi bør prøve å ha klart for oss forskjellen på disse 2 tingene som er:
@@ -38,6 +38,16 @@ Ferdige programmer som vi kobler inn i vårt eget [program](#program). De fleste
 
 ## Pip
 `pip` er et program vi bruker for å laste ned og installere python [biblioteker](#biblioteker)
+
+## Terminal-programmer som Cygwin og iTerm2
+Terminal-programmer gjør det mulig for oss å gi kommandoer til datamaskinen. Det vi skriver inn, det gjøres. Det vil si, med mindre vi har skrevet noe feil. Datamaskiner er ikke veldig smarte, så kommandoen må være skrevet på en helt bestemt måte. 
+
+Når vi skriver kommandoer i en terminal skriver kommandoer i programmeringsspråket `bash`. Eksempler på slike kommandoer er:
+```bash
+$> ls
+$> mkdir thedirectory
+$> cd thedirectory
+```
 
 
 
