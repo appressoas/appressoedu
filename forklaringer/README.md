@@ -10,7 +10,9 @@ Med en web-applikasjon mener vi i dette kurset et [program](#program) som
 * setter sammen nettsider
 * lagrer data som bruker legger inn på nettsidene
 
-Vi skal lage en web-applikasjon som heter Kvittr. Siden en web-applikasjon er et program, så må vi bruke et programmeringsspråk for å skrive våre kommandoer i, og [Python](#python) er språket vi skal bruke.
+Vi skal lage en web-applikasjon som heter Kvittr i dette kurset. Web-applikasjoner brukes ofte til å lage [interaktive](#interaktive) [nettsider](#nettsider).
+
+Siden en web-applikasjon er et program, så må vi bruke et programmeringsspråk for å skrive våre kommandoer i, og [Python](#python) er språket vi skal bruke.
 
 Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi 
 [biblioteker](#bibliotek). 
@@ -56,3 +58,32 @@ Git har støtte for å syncronisere code til servere og tjenester som er koblet 
 
 ### Github
 Github er et nettsted hvor vi kan lagre kode. I tillegg til å lagre kode har github diverse funksjonalitet som gjør at det er lettere å holde oversikt og samarbeide om koding.
+
+### Nettsider
+Nettsider er det vi til et gitt tid ser i vår nettleser. I mange tilfeller er det bare innholdet i en html-fil. Når vi går til en [url](#url) så hentes det html-kode fra en web-server til vår maskin, og det vises 
+
+### Interaktive
+En nettside som lar som lar brukeren bidra med innhold på siden. Eksempler på interaksjon er:
+* Klikk på "Like" (som øker antall likes og dermed endrer innholdet)
+* Legge til kommentar
+* Legge til bilde
+
+### Url
+En url er en unik ID for en nettside, det som bestemmer hva som skal vises i vår nettleser. En url er på formen:
+```
+protokoll://underdomene.domene.toppdomene:port/sti/side
+```
+* **protokoll**: F.eks http eller https. Vi har i dette kurset også blitt kjent med `ssh` som vi bruker for å clone, pulle og pushe til github.
+* **domene**: Et domene er et et navn for en IP-adresse.
+* **toppdomene**: Den delen som sier noe om land som ´.no´, samt noen andre som ´.com´, ´.org´ og ´.net´.
+* **underdomene**: Et domene som er en del av et annet domene. F.eks ´intranett.bedriften.no`.
+* **port**: Hvilken port requesten skal sendes til. Vanlige nettsider hentes fra port 80, sikre sider (https) hentes fra 443.
+
+
+
+
+
+
+
+
+
