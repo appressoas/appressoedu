@@ -4,10 +4,10 @@ Det kan være vanskelig å få oversikt over alle elementene vi snakker om når 
 
 Her følger et forsøk på å gi et overblikk over elementene og deres bruksområder.
 
-## Å lage en web-applikasjonen
+## Web-applikasjon
 
 Med en web-applikasjon mener vi i dette kurset et [program](#program) som 
-* setter sammen nettsider
+* setter sammen nettsider (med data fra [database](#database) og html-kode)
 * lagrer data som bruker legger inn på nettsidene
 
 Vi skal lage en web-applikasjon som heter Kvittr i dette kurset. Web-applikasjoner brukes ofte til å lage [interaktive](#interaktive) [nettsider](#nettsider).
@@ -30,10 +30,6 @@ Python er for oss 2 ting, og det kan være litt forvirrende. Vi bør prøve å h
 Programmeringsspråket Python er et av mange språk som er laget for å skrive kommandoer som skal utføres av en datamaskin.
 
 Programmet Python, som vi har fått installert på vår maskin gjennom Xcode eller Cygwin, er et program som leser filer med kode skrevet i språket python, og utfører kommandoene der.
-
-### Django
-Django er et stort [Python](#python) [bibliotek](#bibliotek) som gir oss ferdigskrevet kode for mange av de vanlige tingene vi må gjøre når vi lager 
-web-applikasjoner.
 
 ### Bibliotek
 Ferdige programmer som vi kobler inn i vårt eget [program](#program). De fleste bibliotekene vi bruker laster vi ned og installerer i vår [virtuelle omgivelse](#virtuelle omgivelse) med verktøyet [Pip](#pip) og kommandoen `pip install`.
@@ -78,6 +74,23 @@ protokoll://underdomene.domene.toppdomene:port/sti/side
 * **toppdomene**: Den delen som sier noe om land som ´.no´, samt noen andre som ´.com´, ´.org´ og ´.net´.
 * **underdomene**: Et domene som er en del av et annet domene. F.eks ´intranett.bedriften.no`.
 * **port**: Hvilken port requesten skal sendes til. Vanlige nettsider hentes fra port 80, sikre sider (https) hentes fra 443.
+
+### Database
+
+## Django
+Django er et stort [Python](#python) [bibliotek](#bibliotek) som gir oss ferdigskrevet kode for mange av de vanlige tingene vi må gjøre når vi lager 
+web-applikasjoner.
+
+### Settings
+Dette er innstillinger for en [Web-applikasjon](#web-applikasjon) laget med Django. Disse er lagret i en fil med navn `settings.py`.
+
+### Models
+
+### Urls
+
+### Views
+
+### Templates
 
 
 
