@@ -19,6 +19,12 @@ Men vi ønsker ikke å skrive all koden selv. Derfor bruker vi
 
 Et av bibliotekene vi bruker for å lage Kvittr er [Django](#django). Vi installerer Django ved hjelp av [Pip](#pip).
 
+### Request
+Request er bare en *forespørsel*. I forbindelse med dette kurset snakker vi om [http](#http)-forespørsler. Forespørselen sendes til en server ut fra hvilken adresse ([url](#url)) vi har skrevet i nettleserens adressefelt.
+
+### Response
+Response er bare et *svar*. Dette er svaret som sendes på en [request](#request) til vår nettleser fra en gitt server.
+
 ### Program
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. Kommandoene er som oftest listet opp i én eller flere filer.
 
@@ -85,6 +91,7 @@ web-applikasjoner.
 Dette er innstillinger for en [Web-applikasjon](#web-applikasjon) laget med Django. Disse er lagret i en fil med navn `settings.py`.
 
 ### Models
+Vi bruker begrepet *modeller* om [Python](#python)-klasser som viser en  
 
 ### Urls
 
@@ -92,6 +99,12 @@ Dette er innstillinger for en [Web-applikasjon](#web-applikasjon) laget med Djan
 
 ### Templates
 
+### Migrations
+*Migrations* kan vi tenke på som "endringer i databasen". En endring kan være:
+* en ny tabell
+* en ny kolonne i en tabell
+* sletting av en kolonne i en tabell
+* osv.
 
 
 
