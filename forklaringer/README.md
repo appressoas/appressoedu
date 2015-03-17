@@ -25,6 +25,10 @@ Request er bare en *forespørsel*. I forbindelse med dette kurset snakker vi om 
 ### Response
 Response er bare et *svar*. Dette er svaret som sendes på en [request](#request) til vår nettleser fra en gitt server.
 
+### HTTP
+Http er en avtalt måte for datamaskiner å snakke sammen på over nett. Eksempel på "måte å snakke sammen på" er f.eks 
+* at det skal sendes med informasjon om hvilken nettleser man sitter på
+
 ### Program
 Med et program mener vi et sett med kommandoer som til sammen gjør noe på en datamaskin. Kommandoene er som oftest listet opp i én eller flere filer.
 
