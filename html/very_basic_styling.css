@@ -1,0 +1,12 @@
+.page-container {
+    width: 750px; 
+    margin: auto;
+}
+article, h1, h4 {
+    border: 1px solid #666FFF;
+    margin: 10px;
+}
+
+.article-background {
+    background-color: #354365;
+}
