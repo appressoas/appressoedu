@@ -95,13 +95,16 @@ web-applikasjoner.
 Dette er innstillinger for en [Web-applikasjon](#web-applikasjon) laget med Django. Disse er lagret i en fil med navn `settings.py`.
 
 ### Models
-Vi bruker begrepet *modeller* om [Python](#python)-klasser som viser en  
+Vi bruker begrepet *modeller* om [Python](#python)-klasser som er vår representasjon av entiteter vi ønsker å lagre informasjon om. For hver modell finnes det alltid en tabell i databasen hvor dataene lagres.
 
 ### Urls
+Ved hjelp av det vi legger inn i `urls.py` filene i django-prosjektet bestemmer vi hva vår applikasjon skal svare (ved å angi hvilket view som skal kalles for hvilken "sti") på forskjellige forespørsler (requests). Når en bruker åpner en nettside ved å angi en [url](#url) i en nettlesers adressefelt lages en "request" som sendes til serveren som kjører på domenet. 
 
 ### Views
+En funksjon som tar i mot en forespørsel (request) og returnerer et svar (response) kaller vi et `view`. En request inneholder variable som vi bruker for å lage en spesiell request for eksempel for en gitt innlogget bruker.
 
 ### Templates
+Filer med HTML-kode og ekstra syntaks for det som er dynamisk, f.eks `{{ user.email}}`. Når vi bruker en av Djangos `render` funksjoner erstattes det som skal være dynamisk med data.
 
 ### Migrations
 *Migrations* kan vi tenke på som "endringer i databasen". En endring kan være:
